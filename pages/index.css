@@ -7,10 +7,118 @@
   line-height: 20px;
 }
 
-.header {
-  background-color: #ffffff;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.background_header {
-  background-image: cover;
+.nav__logo {
+  display: flex;
+  position: relative;
+  height: 39px;
+  width: 105px;
+  left: 30px;
+  top: 30px;
+  margin-bottom: 183px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__link {
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+}
+
+.header__title {
+  font-family: "Inter", Arial, Sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  left: 80px;
+  top: 183px;
+}
+
+.header__span-accent {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  left: 80px;
+  color: #2f80ed;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-family: "Noto serif", Times, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  margin-top: 28px;
+  left: 80px;
+  top: 428px;
+}
+
+.header__image {
+  right: 5px;
+  top: 124px;
+  width: 646px;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.header__footer {
+  color: #6f6f6f;
+}
+
+.header__timetable {
+  left: 80px;
+  bottom: 40px;
+  position: absolute;
+}
+
+.header__address {
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
 }
