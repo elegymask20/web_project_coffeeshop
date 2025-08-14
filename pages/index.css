@@ -55,37 +55,34 @@
 }
 
 .header__title {
-  font-family: "Inter", Arial, Sans-serif;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  font-style: italic;
-  font-weight: normal;
+  position: relative;
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
   max-width: 709px;
   left: 80px;
-  top: 183px;
 }
 
 .header__span-accent {
   display: flex;
-  flex-direction: column;
-  font-family: "Inter", Arial, Sans-serif;
+  font-family: "Noto Serif", Times, sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: 1px;
-  left: 80px;
   color: #2f80ed;
+  left: 80px;
 }
 
 .header__description {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   font-family: "Noto serif", Times, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -94,7 +91,7 @@
   max-width: 683px;
   margin-top: 28px;
   left: 80px;
-  top: 428px;
+  top: 28px;
 }
 
 .header__image {
