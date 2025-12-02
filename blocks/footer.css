@@ -83,10 +83,13 @@
   height: 16px;
 }
 
-.footer__copyrigth {
+.footer__copyright {
   font-size: 16px;
   line-height: 20px;
   margin: 108px 80px 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
 }
 
 .footer__column-link:hover {
